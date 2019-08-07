@@ -1,10 +1,10 @@
 package errcode
 
 import (
-	"aha-api-server/library/errcode/types"
 	"fmt"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
+	"github.com/mitesoro/library/errcode/types"
 	"strconv"
 )
 
