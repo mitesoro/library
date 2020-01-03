@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"aha-api-server/library/container/pool"
-	xtime "aha-api-server/library/time"
+	"github.com/mitesoro/library/container/pool"
+	xtime "github.com/mitesoro/library/time"
 )
 
 var p *Pool

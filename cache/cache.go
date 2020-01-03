@@ -1,8 +1,8 @@
 package cache
 
 import (
-	"aha-api-server/library/log"
 	"errors"
+	"github.com/mitesoro/library/log"
 	"sync"
 )
 

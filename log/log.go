@@ -70,7 +70,7 @@ var (
 // Init create logger with context.
 func Init(conf *Config) {
 	//var isNil bool
-	_dir = "/Users/liuhaigang/go/src/aha-api-server/logs/"
+	_dir = "/Users/liuhaigang/go/src/github.com/mitesoro/logs/"
 	if conf == nil {
 		//isNil = true
 		conf = &Config{

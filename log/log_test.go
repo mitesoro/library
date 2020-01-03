@@ -22,7 +22,7 @@ func initStdout() {
 
 func initFile() {
 	conf := &Config{
-		Dir: "/Users/liuhaigang/go/src/aha-api-server/logs",
+		Dir: "/Users/liuhaigang/go/src/github.com/mitesoro/logs",
 		// VLevel:  2,
 		Module: map[string]int32{"log_test": 1},
 	}

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	xtime "aha-api-server/library/time"
+	xtime "github.com/mitesoro/library/time"
 
 	"github.com/stretchr/testify/assert"
 )

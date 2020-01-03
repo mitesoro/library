@@ -1,8 +1,8 @@
 package log
 
 import (
-	"aha-api-server/library/http"
 	"fmt"
+	"github.com/mitesoro/library/http"
 )
 
 func Logger() http.HandlerFunc {

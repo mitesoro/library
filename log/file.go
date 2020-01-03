@@ -1,9 +1,9 @@
 package log
 
 import (
-	"aha-api-server/library/log/internal/filewriter"
 	"context"
 	"fmt"
+	"github.com/mitesoro/library/log/internal/filewriter"
 	"io"
 	"path/filepath"
 	"time"

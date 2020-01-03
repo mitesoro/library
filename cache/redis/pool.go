@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"aha-api-server/library/container/pool"
-	xtime "aha-api-server/library/time"
+	"github.com/mitesoro/library/container/pool"
+	xtime "github.com/mitesoro/library/time"
 )
 
 var beginTime, _ = time.Parse("2006-01-02 15:04:05", "2006-01-02 15:04:05")
@@ -50,6 +50,7 @@ type Config struct {
 	Proto        string
 	Addr         string
 	Auth         string
+	DB           int
 	DialTimeout  xtime.Duration
 	ReadTimeout  xtime.Duration
 	WriteTimeout xtime.Duration
